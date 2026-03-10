@@ -2,7 +2,11 @@
   <img src="figlet_to_ttf.gif" alt="figlet to ttf">
 </p>
 
-Convert [FIGlet](https://github.com/patorjk/figlet.js/tree/main) fonts into TrueType (.ttf) font files. I built this project so I could add FIGlet fonts to [Asciinotes](https://asciinotes.com/).
+Convert [FIGlet](https://github.com/patorjk/figlet.js/tree/main) fonts into TrueType (.ttf) font files.
+
+I thought this would be well-treaded territory. FIGlet fonts have been around since the 90s, and people have been making ascii-art fonts way before that. I looked and looked (I googled and googled) for a project doing this, and I was surprised I couldn't find anything.
+
+I built this because I needed text-editor-friendly FIGlet fonts to use with [Asciinotes](https://asciinotes.com/), my note-taking app made entirely with ascii characters.
 
 ## Install
 
@@ -80,7 +84,13 @@ The [`/out`](https://github.com/WillH0lt/FIGlet-To-TTF/tree/main/out) directory 
 
 ## Available FIGlet fonts
 
-FIGlet ships with many built-in fonts. See [figlet.js/fonts](https://github.com/patorjk/figlet.js/tree/main/fonts) for a full list of available FIGlet fonts.
+FIGlet ships with many built-in fonts. See [figlet.js/fonts](https://github.com/patorjk/figlet.js/tree/main/fonts) for a full ist of available FIGlet fonts.
+
+## Something that would be cool
+
+The FIGlet fonts have a really nice kerning logic that allows neighboring letters flow nicely into each other. The generated TTF files are sorely lacking this functionality. I think this might be achievable using  [contextual substituion](https://glyphsapp.com/learn/features-part-2-contextual-substitutions), but I haven't gotten around to trying it.
+
+If you implement this, or something else interesting, please submit a PR!
 
 ## License
 
