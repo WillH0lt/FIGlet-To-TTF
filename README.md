@@ -4,7 +4,7 @@
 
 Convert [FIGlet](https://github.com/patorjk/figlet.js/tree/main) fonts into TrueType (.ttf) font files.
 
-I thought this would be well-treaded territory. FIGlet fonts have been around since the 90s, and people have been making ascii-art fonts way before that. I looked and looked (I googled and googled) for a project doing this, and I was surprised I couldn't find anything.
+I thought this would be well-trodden territory. FIGlet fonts have been around since the 90s, and people have been making ascii-art fonts way before that. I looked and looked (I googled and googled) for a project doing this, and I was surprised I couldn't find anything.
 
 I built this because I needed text-editor-friendly FIGlet fonts to use with [Asciinotes](https://asciinotes.com/), my note-taking app made entirely with ascii characters.
 
@@ -82,11 +82,11 @@ console.log(`Font written to ${outputPath}`)
 
 Shout out to [https://github.com/patorjk/figlet.js](https://github.com/patorjk/figlet.js/tree/main) for maintaining a library of FIGlet fonts over the years. Check out [figlet.js/fonts](https://github.com/patorjk/figlet.js/tree/main/fonts) for the raw .flf files.
 
-I've gone ahead and generated TTF files for all those fonts, see the [`/out`](https://github.com/WillH0lt/FIGlet-To-TTF/tree/main/out) directory. The fonts were created using [Cascadia Mono](https://fonts.google.com/specimen/Cascadia+Mono) as the glyph source font. I've found Cascadia Mono is pretty good for ascii art since the slashes (\ and /) line up perfectly and it has ton of unicode characters you can use in a pinch.
+I've gone ahead and generated TTF files for all those fonts, see the [`/out`](https://github.com/WillH0lt/FIGlet-To-TTF/tree/main/out) directory. The fonts were created using [Cascadia Mono](https://fonts.google.com/specimen/Cascadia+Mono) as the glyph source font. I've found Cascadia Mono is pretty good for ascii art since the slashes (\ and /) line up perfectly and it has a ton of unicode characters you can use in a pinch.
 
 ## Something that would be cool
 
-The FIGlet fonts have a really nice kerning logic that allows neighboring letters flow nicely into each other. The generated TTF files are sorely lacking this functionality. I think this might be achievable using  [contextual substituion](https://glyphsapp.com/learn/features-part-2-contextual-substitutions), but I haven't gotten around to trying it.
+The FIGlet fonts have a really nice kerning logic that allows neighboring letters to flow nicely into each other. The generated TTF files are sorely lacking this functionality. I think this might be achievable using [contextual substitution](https://glyphsapp.com/learn/features-part-2-contextual-substitutions), but I haven't gotten around to trying it.
 
 If you implement this, or something else interesting, please submit a PR!
 
