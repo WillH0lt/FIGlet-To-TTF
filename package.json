@@ -1,0 +1,35 @@
+{
+  "name": "figlet-to-ttf",
+  "version": "1.0.0",
+  "description": "Convert FIGlet fonts into TrueType (.ttf) font files",
+  "author": "Will Holt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillH0lt/FIGlet-To-TTF"
+  },
+  "keywords": [
+    "figlet",
+    "ttf",
+    "truetype",
+    "font",
+    "ascii-art",
+    "font-generator"
+  ],
+  "private": true,
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "cleye": "^2.3.0",
+    "figlet": "^1.9.3",
+    "opentype.js": "^1.3.4"
+  },
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^20.0.0",
+    "@types/bun": "^1.3.10",
+    "@types/opentype.js": "^1.3.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
