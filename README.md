@@ -78,13 +78,11 @@ const outputPath = await figletToTtf({
 console.log(`Font written to ${outputPath}`)
 ```
 
-## Pre-generated fonts
+## Available fonts
 
-The [`/out`](https://github.com/WillH0lt/FIGlet-To-TTF/tree/main/out) directory contains pre-generated TTF files for all built-in FIGlet fonts, created using [Cascadia Mono](https://fonts.google.com/specimen/Cascadia+Mono) as the glyph source font.
+Shout out to [https://github.com/patorjk/figlet.js](https://github.com/patorjk/figlet.js/tree/main) for maintaining a library of FIGlet fonts over the years. Check out [figlet.js/fonts](https://github.com/patorjk/figlet.js/tree/main/fonts) for the raw .flf files.
 
-## Available FIGlet fonts
-
-FIGlet ships with many built-in fonts. See [figlet.js/fonts](https://github.com/patorjk/figlet.js/tree/main/fonts) for a full ist of available FIGlet fonts.
+I've gone ahead and generated TTF files for all those fonts, see the [`/out`](https://github.com/WillH0lt/FIGlet-To-TTF/tree/main/out) directory. The fonts were created using [Cascadia Mono](https://fonts.google.com/specimen/Cascadia+Mono) as the glyph source font. I've found Cascadia Mono is pretty good for ascii art since the slashes (\ and /) line up perfectly and it has ton of unicode characters you can use in a pinch.
 
 ## Something that would be cool
 
